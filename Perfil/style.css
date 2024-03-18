@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+*{
+    font-family: 'Epilogue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg,#286ace,#2f4b9a);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fundo{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background: #f6f4f4;
+    border-radius: 20px;    
+}
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin-left: 100px;
+}
+.direita{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 425px;
+    height: 425px;
+    border-radius: 50%;
+    margin: 20px;
+    background:#004c98;
+}
+.foto img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    
+}
+.prencher{
+    width: 75%;
+}
+.textfield{
+    width: 100%;
+    max-width: 90%;
+    margin: 10px 0px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.textfield input{
+    width: 100%;
+    border: 0.1px solid #0000001c;
+    border-radius: 10px;
+    padding: 15px;
+    color: black;
+    box-shadow: 1px 1px 6px #0000001c;
+    box-sizing: border-box;
+}
+.textfield input:hover{
+    background-color: #0000001c;
+}
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+}
+.botao button{
+    padding:0.8rem 3.8rem;
+    border-radius:10px;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px #0000001c;
+    background:linear-gradient(90deg,#2f4b9a,#286ace)
+}
+.botao button:hover{
+    background:#0f3772;
+}
+.botao button:active{
+    background: #2f4b9a;
+}
